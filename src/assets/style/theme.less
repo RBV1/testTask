@@ -1,0 +1,35 @@
+// Import UIkit default theme (or uikit.less with only core styles)
+@import "~uikit/src/less/uikit.theme.less";
+
+// Your custom code goes here, e.g. mixins, variables.
+body {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.uk-textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.uk-text-medium {
+  font-weight: 500;
+}
+
+.uk-label {
+  font-size: 12px;
+  cursor: default;
+}
+
+.vdp-datepicker__calendar {
+  top: 0;
+  max-width: 100%;
+  transform: translateY(-100%);
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
+}
