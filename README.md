@@ -1,6 +1,15 @@
-# testtask
+# Test task
 
 > A Vue.js project
+> It is simple task manager.
+## Application features:
+* Create task
+* Delete task
+* Sort tasks by name(default)
+* Sort tasks by date(default)
+Local storage use as store for tasks
+
+Preprocessor css - less
 
 ## Build Setup
 
